@@ -1,5 +1,8 @@
 /* ! Mulish font form google font */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+/* ! inter font form google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 
 
 /* ! universal */
@@ -9,14 +12,74 @@
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
+/* ! general css */
+/* .t-p {
 
+} */
 /* ! footer */
-#footer{
+#footer {
     background-color: rgba(19, 19, 24, 0.05);
     padding: 110px 0;
 }
 
-#footer .container .f-title{
+#footer .f-title {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
+    /* ! text  */
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#footer .f-title span {
+    color: #FF5400;
+}
+
+#footer .f-description {
+    color: #5A5A5D;
+    text-align: center;
+    padding: 15px 335px 30px 335px;
+}
+#footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#footer .social-links a{
+    color: #131318;
+}
+
+#footer hr {
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin: 50px 280px;
+}
+
+#footer .copy {
+color: #131318;
+font-family: 'Inter', sans-serif;
+text-align: center;
+font-size: 16px;
+font-weight: 300;
+}
+
+
+
+/* ! responsive area */
+/* ? for small device */
+@media screen and (max-width: 600px) {
+    #footer {
+        padding: 30px 44px;
+    }
+    #footer .f-title {
+        font-size: 21.543px;
+    }
+    #footer .f-description {
+        padding: 16px 44px;
+    }
+    #footer hr {
+        border: 1px solid rgba(19, 19, 24, 0.10);
+        margin: 24px 20px;
+    }
 }
