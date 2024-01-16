@@ -19,6 +19,93 @@
 } */
 
 
+
+
+/* ! header */
+header {
+    width: 81.25%;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#nav .img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+#nav .nav-text a {
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+#banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 1170px;
+    /* height: 100%; */
+    height: 200px;
+    margin-top: 50px;
+    padding: 105px 0;
+    text-align: center;
+}
+
+#banner .banner-text h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+#banner .banner-text p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+#banner .banner-form {
+    margin: 0 145px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+#banner .banner-form input,
+button {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px;
+}
+
+#banner .banner-form button {
+    padding: 16px;
+    border-radius: 8px;
+    color: #FFF;
+    background: #FF5400;
+}
+
+/* !tours */
+#popular{
+    display: flex;
+    align-items: center;
+    margin: 100px 0;
+    gap: 53px;
+}
+
+/* ! main */
 main {
     width: 81.25%;
     max-width: 1170px;
@@ -172,7 +259,7 @@ main {
         margin: 0 auto;
     } */
     /* ! nesw letter */
-    
+
     #news-letter {
         grid-template-columns: 1fr;
     }
@@ -181,13 +268,16 @@ main {
         width: 335px;
         height: 353px;
     }
+
     #news-letter .news .news-form input {
         padding: 16px 145px 16px 20px;
     }
+
     #news-letter .news-img img {
         width: 375px;
         height: 300px;
     }
+
     #news-letter .save-up {
 
         transform: none;
