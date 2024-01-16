@@ -1,0 +1,22 @@
+/* ! Mulish font form google font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+
+/* ! universal */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* ! footer */
+#footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 110px 0;
+}
+
+#footer .container .f-title{
+    display: flex;
+    gap: 16px;
+}
