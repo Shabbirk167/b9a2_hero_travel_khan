@@ -158,7 +158,8 @@ main {
     text-align: left;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
+    background: rgb
+    a(233, 68, 68, 0.05);
     width: 573px;
     height: 284px;
     flex-shrink: 0;
